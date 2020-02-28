@@ -21,10 +21,16 @@ body {
 }
 
 a {
-  color: #000;
+  color: #008000;
+  font-weight: 500;
 }
 a:focus {
   outline: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
 }
 
 h1,
@@ -71,7 +77,7 @@ ul li {
   display: inline-block;
   height: 32px;
   width: 32px;
-  color: #4e4e4e;
+  color: #008000;
 }
 .social-block li a i {
   font-size: 1.5em;
@@ -878,12 +884,16 @@ ul li {
 
 .welcome-section h4 {
     padding-top: 20px;
-    color: #777;
+    color: #4e4e4e;
+}
+
+.welcome-section:hover h4 {
+  color: #008000;
 }
 
 .welcome-section p {
     padding-top: 20px;
-    color: #999;
+    color: #4e4e4e;
 }
 
 .welcome-section:hover .border {
