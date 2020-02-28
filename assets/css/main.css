@@ -501,6 +501,10 @@ ul li {
   color: #f8f8f8;
 }
 
+.panel-body p{
+  color: #4e4e4e;
+}
+
 .faq .panel-heading {
   cursor: pointer;
 }
