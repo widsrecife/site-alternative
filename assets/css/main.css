@@ -607,7 +607,7 @@ ul li {
   color: #fff;
 }
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
-  opacity: 0.8;
+  color: #008000;
 }
 
 .footer-img {
