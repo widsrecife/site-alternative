@@ -153,6 +153,14 @@ ul li {
   text-align: center;
 }
 
+.section-title-invert {
+  color: white;
+  letter-spacing: 1px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /* 
  * 3.0 Helper Class
  */
@@ -414,14 +422,20 @@ ul li {
   text-transform: uppercase;
   margin: 25px 0;
 }
-.speaker h4 {
+.speaker-invert {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+.speaker .speaker-invert h4 {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-.speaker p {
+.speaker .speaker-invert p {
   margin-bottom: 5px;
 }
-.speaker img:hover {
+.speaker .speaker-invert img:hover {
   opacity: .7;
 }
 
